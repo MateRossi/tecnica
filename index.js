@@ -102,3 +102,16 @@ function getPorcentagemParticipacao(faturamentoMensal) {
 }
 
 console.log("Porcentagens de participação: ", getPorcentagemParticipacao(faturamentoMensal));
+
+//Questão 5:
+const string = "abacaxi";
+
+function inverteString (string) {
+    let stringInvertida = "";
+    for (let i = string.length - 1; i >= 0; i--) {
+        stringInvertida += string[i];
+    }
+    return stringInvertida;
+}
+
+console.log(inverteString(string));
